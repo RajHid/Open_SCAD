@@ -61,6 +61,8 @@ translate([0,0,0]){ //10.1 Dist to Backface
 Dial_Gauge();
 }
 
+cube(100);
+
 //TopProbePin();
 module TopProbePin(){
     translate([0,-HDialHousing/2,DDialHousing/2+HDialStaticTopPin+HGrabbleTopPin-Sph_D/2+HDome]){
